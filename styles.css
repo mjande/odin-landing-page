@@ -5,7 +5,7 @@
 /* font styles */
 .header, 
 .title,
-.copyright {
+.footer {
     background-color: #1f2937;
 }
 
@@ -21,7 +21,8 @@
 }
 
 .title-subtext, 
-.header-links {
+.header-links, 
+.footer {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -44,4 +45,40 @@ button,
     font-size: 36px; 
     font-style: italic;
     font-weight: 200;
+}
+
+/* alignment */
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 100%;
+}
+
+.header {
+    flex: 0 0;
+}
+
+.title {
+    flex: 1 0 auto;
+}
+
+.information {
+    flex: 1 0 auto;
+}
+
+.quote {
+    flex: 1 0 auto;
+}
+
+.call-to-action {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0;
 }
