@@ -1,5 +1,5 @@
 * {
-    font-family: 'roboto' sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 /* font styles */
@@ -21,10 +21,11 @@
 }
 
 .title-subtext, 
-.header-links, 
+.header-links a, 
 .footer {
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
 }
 
 button,
@@ -57,14 +58,51 @@ body {
     flex-direction: column;
     justify-content: stretch;
     height: 100%;
+    margin: 0px;
 }
 
+.header, 
+.title,
+.information,
+.quote,
+.call-to-action, 
+.footer {
+    padding: 0px 128px;
+}
+
+/* header */
 .header {
     flex: 0 0;
+    display: flex;
+    align-items: center;
 }
 
+.header-logo {
+    padding: 12px 0px;
+}
+
+.header-links {
+    margin-left: auto;
+    padding: 12px;
+    gap: 32px;
+}
+
+.header-links a {
+    padding: 0px 12px;
+}
+
+/* title */
 .title {
     flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 128px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    flex-shrink: 1;
 }
 
 .information {
