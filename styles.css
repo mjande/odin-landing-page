@@ -2,7 +2,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-/* font styles */
+/* styles */
 .header, 
 .title,
 .footer {
@@ -32,6 +32,8 @@ button,
 .call-to-action {
     color: #f9faf8;
     background-color: #3882f6;
+    border-radius: 8px;
+    border-style: none;
 }
 
 .information-header {
@@ -96,19 +98,48 @@ body {
     flex: 1 0 auto;
     display: flex;
     align-items: center;
-    padding: 128px;
+    padding: 32px 128px;
+}
+
+.title-content {
+    padding-right: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    height: 50%;
+    gap: 12px;
+}
+
+.title-text {
+    flex: 1 1 auto;
+}
+
+.title-subtext {
+    flex: 1 1 auto;
+}
+
+.title-content button {
+    flex: 0 0 auto;
+
 }
 
 img {
-    width: 500px;
-    height: auto;
+    width: auto;
+    height: 300px;
     flex-shrink: 1;
 }
+
+/* information */
 
 .information {
     flex: 1 0 auto;
 }
 
+.information-header {
+    text-align: center;
+}
 .quote {
     flex: 1 0 auto;
 }
@@ -119,4 +150,8 @@ img {
 
 .footer {
     flex: 0 0;
+}
+
+button {
+    padding: 6px 24px;
 }
