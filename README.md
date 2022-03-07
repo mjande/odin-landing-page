@@ -3,14 +3,14 @@
 Photo by Nick Kwan from Pexels
 https://www.pexels.com/photo/green-tree-2745259/ 
 
-Photo by Josh Hild from Pexels
-https://www.pexels.com/photo/photo-of-woman-sitting-while-pointing-on-world-map-2422483/
+Photo by Vlada Karpovich from Pexels
+https://www.pexels.com/photo/black-leather-wallet-on-a-map-4452372/ 
 
-Photo by Lalu Fatoni from Pexels
-https://www.pexels.com/photo/man-wearing-black-hoodie-carries-black-and-gray-backpacker-near-trees-during-foggy-weather-732632/
+Photo by Anthony Acosta from Pexels
+https://www.pexels.com/photo/fashion-vacation-brush-hiking-6608038/
 
-Photo by Burak Kebapci from Pexels
-https://www.pexels.com/photo/snow-covered-pine-trees-3778040/
+Photo by Maximiliano Ferreyra from Pexels
+https://www.pexels.com/photo/snow-mountain-under-blue-sky-34250/
 
-Photo by Jarod Barton from Pexels
-https://www.pexels.com/photo/yellow-plane-about-to-fly-on-the-sky-4863999/ 
+Photo by Hazy Mokhlas from Pexels
+https://www.pexels.com/photo/gray-airplane-wing-47481/

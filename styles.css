@@ -50,6 +50,16 @@ button,
     font-weight: 200;
 }
 
+.quote-speaker {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.call-to-action button {
+    border-color: #f9faf8;
+    border-style: solid;
+}
+
 /* alignment */
 html {
     height: 100%;
@@ -77,6 +87,7 @@ body {
     flex: 0 0;
     display: flex;
     align-items: center;
+    padding: 12px 64px;
 }
 
 .header-logo {
@@ -98,7 +109,7 @@ body {
     flex: 1 0 auto;
     display: flex;
     align-items: center;
-    padding: 32px 128px;
+    padding: 32px 64px;
 }
 
 .title-content {
@@ -122,7 +133,6 @@ body {
 
 .title-content button {
     flex: 0 0 auto;
-
 }
 
 img {
@@ -135,17 +145,56 @@ img {
 
 .information {
     flex: 1 0 auto;
+    padding: 32px 256px;
 }
 
 .information-header {
     text-align: center;
 }
+
+.pictures-and-captions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.pictures-and-captions div {
+    flex-shrink: 1;
+}
+
+.information img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    border: medium solid #3882f6;
+    margin: 12px 0px;
+}
+
+/* quote */
+
 .quote {
     flex: 1 0 auto;
+    padding: 32px 256px;
 }
+
+.quote-speaker {
+    text-align: right;
+}
+
+/* call to action */
 
 .call-to-action {
     flex: 1 0 auto;
+    margin: 64px 128px;
+    padding: 32px 128px;
+    display: flex;
+}
+
+.call-to-action button {
+    flex: 0 0 auto;
+    box-sizing: content-box;
 }
 
 .footer {
