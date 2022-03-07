@@ -71,32 +71,20 @@ body {
     justify-content: stretch;
     height: 100%;
     margin: 0px;
-}
-
-.header, 
-.title,
-.information,
-.quote,
-.call-to-action, 
-.footer {
-    padding: 0px 128px;
+    align-content: center;
 }
 
 /* header */
 .header {
-    flex: 0 0;
+    flex: 0 0 auto;
     display: flex;
     align-items: center;
-    padding: 12px 64px;
-}
-
-.header-logo {
-    padding: 12px 0px;
+    padding: 24px 0px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-links {
-    margin-left: auto;
-    padding: 12px;
     gap: 32px;
 }
 
@@ -109,18 +97,20 @@ body {
     flex: 1 0 auto;
     display: flex;
     align-items: center;
-    padding: 32px 64px;
+    justify-content: center;
+    padding: 32px 24px;
+    gap: 48px;
 }
 
 .title-content {
-    padding-right: 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     flex: 1;
     height: 50%;
-    gap: 12px;
+    row-gap: 12px;
+    max-width: 400px;
 }
 
 .title-text {
@@ -135,10 +125,16 @@ body {
     flex: 0 0 auto;
 }
 
-img {
-    width: auto;
-    height: 300px;
+.title-image {
     flex-shrink: 1;
+}
+
+.title-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    border-style: solid;
 }
 
 /* information */
@@ -157,7 +153,7 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 8px;
+    gap: 24px;
 }
 
 .pictures-and-captions div {
@@ -190,6 +186,8 @@ img {
     margin: 64px 128px;
     padding: 32px 128px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .call-to-action button {
@@ -198,9 +196,12 @@ img {
 }
 
 .footer {
-    flex: 0 0;
+    flex: 1 0;
+    text-align: center;
+    padding: 24px 0px;
 }
 
 button {
     padding: 6px 24px;
+    max-height: 24px;
 }
